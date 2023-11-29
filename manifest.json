@@ -1,0 +1,20 @@
+{
+  "name": "catdesk",
+  "author": {
+    "name": "seokhyeon",
+    "email": "sanmihyang@gmail.com",
+    "url": "https://seokbong.tistory.com/"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/catdesk.html",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}

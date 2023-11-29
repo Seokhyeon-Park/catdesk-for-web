@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.iframe-container > iframe > html, body {
+  overflow: hidden;
+}
+
+.iframe-container > iframe > #hexo-helper-live2d {
+  display: flex !important;
+  width: 100% !important;
+  height: 100% !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.iframe-container > iframe > #live2dcanvas {
+  width: 150;
+  height: 210;
+}
+
+.iframe-container {
+  display: flex;
+  height: 95%;
+  width: 95%;
+  background: rgb(255 214 234 / 75%);
+  border-radius: 15px;
+  background-size: cover;
+  /* background-image: url("./background/chrismas.png"); */
+}
+
+iframe {
+  border: none;
+}
