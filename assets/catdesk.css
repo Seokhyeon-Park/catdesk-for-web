@@ -4,23 +4,6 @@ html, body {
   overflow: hidden;
 }
 
-.iframe-container > iframe > html, body {
-  overflow: hidden;
-}
-
-.iframe-container > iframe > #hexo-helper-live2d {
-  display: flex !important;
-  width: 100% !important;
-  height: 100% !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.iframe-container > iframe > #live2dcanvas {
-  width: 150;
-  height: 210;
-}
-
 .iframe-container {
   display: flex;
   height: 95%;
@@ -33,4 +16,7 @@ html, body {
 
 iframe {
   border: none;
+  position: fixed;
+  left: -100px;
+  top: 50px;
 }
